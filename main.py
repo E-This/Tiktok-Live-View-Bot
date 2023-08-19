@@ -465,4 +465,4 @@ if __name__ == "__main__":
                     else:
                         did, iid, cdid, openudid = device.split(':')
                         t = threading.Thread(target=sendLiveViews,args=[did,iid,cdid,openudid])
-                        t.start()              
+                        t.start("https://www.tiktok.com/@hebelehebele333/live?is_from_webapp=1&sender_device=pc")              
